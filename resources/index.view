@@ -1,0 +1,98 @@
+<svg class="Content" id="FullContent">
+  <svg>
+    <line x1="0%" x2="100%" y1="21%" y2="79%" stroke-width="2" fill="gray"/>
+    <line x1="0%" x2="100%" y1="79%" y2="21%" stroke-width="2" fill="gray"/>
+    <line x1="79%" x2="21%" y1="0%" y2="100%" stroke-width="2" fill="gray"/>
+    <line x1="21%" x2="79%" y1="0%" y2="100%" stroke-width="2" fill="gray"/>
+    <rect x="7%" y="7%" width="86%" height="86%" fill="black" />
+    <text id="num12" x="50%" y="7%" text-anchor="middle" fill="white" font-family="System-Bold">12</text>
+    <text id="num3" x="97%" y="53%" text-anchor="middle" fill="white" font-family="System-Bold">3</text>
+    <text id="num6" x="50%" y="99%" text-anchor="middle" fill="white" font-family="System-Bold">6</text>
+    <text id="num9" x="3%" y="53%" text-anchor="middle" fill="white" font-family="System-Bold">9</text>
+  </svg>
+  
+  <svg>
+    <gradientRect id="BackgroundGradient" x="10%" y="10%" width="80%" height="80%"
+      gradient-type="radial"
+      gradient-x1="50%" gradient-y1="50%"
+      gradient-x2="100%" gradient-y2="100%"
+      gradient-color1="fb-dark-gray"
+      gradient-color2="fb-black"/>
+  </svg>
+
+  <text id="ClockLabel" />
+  <text id="Date" x="50%" y="13%" />
+  
+  <svg class="Steps" id="StepsBlock">
+    <image x="27%" y="18%" width="6%" height="6%" href="icons/steps_36px.png" class="StepsImg" />
+    <arc id="StepsBackground" x="18%" y="15%" width="80" height="80" fill="fb-light-gray" arc-width="3" start-angle="240" sweep-angle="240" opacity="0.4" />
+    <arc id="StepsArc" x="18%" y="15%" width="80" height="80" fill="fb-green" arc-width="5" start-angle="240" sweep-angle="240" />
+    <text id="StepsText" x="30%" y="30%" text-anchor="middle" />
+  </svg>
+  
+  <svg class="Distance" id="DistanceBlock">
+    <image x="27%" y="38%" width="6%" height="6%" href="icons/distance_36px.png" class="DistanceImg" />
+    <arc id="DistanceBackground" x="18%" y="35%" width="80" height="80" fill="fb-light-gray" arc-width="3" start-angle="240" sweep-angle="240" opacity="0.4" />
+    <arc id="DistanceArc" x="18%" y="35%" width="80" height="80" fill="fb-indigo" arc-width="5" start-angle="240" sweep-angle="240" />
+    <text id="DistanceText" x="30%" y="50%" text-anchor="middle" />
+  </svg>
+  
+  <svg class="Calories" id="CaloriesBlock">
+    <image x="27%" y="58%" width="6%" height="6%" href="icons/calories_36px.png" class="CaloriesImg" />
+    <arc id="CaloriesBackground" x="18%" y="55%" width="80" height="80" fill="fb-light-gray" arc-width="3" start-angle="240" sweep-angle="240" opacity="0.4" />
+    <arc id="CaloriesArc" x="18%" y="55%" width="80" height="80" fill="fb-orange" arc-width="5" start-angle="240" sweep-angle="240" />
+    <text id="CaloriesText" x="30%" y="70%" text-anchor="middle" />
+  </svg>
+  
+  <svg class="Zones" id="ZonesBlock">
+    <image x="70%" y="18%" width="6%" height="6%" href="icons/azm_36px.png" class="AZMImg" />
+    <arc id="ZonesBackground" x="61%" y="15%" width="80" height="80" fill="fb-light-gray" arc-width="3" start-angle="240" sweep-angle="240" opacity="0.4" />
+    <arc id="ZonesArc" x="61%" y="15%" width="80" height="80" fill="fb-peach" arc-width="5" start-angle="240" sweep-angle="240" />
+    <text id="ZonesText" x="73%" y="30%" text-anchor="middle" />
+  </svg>
+
+  <svg class="Elevation" id="ElevationBlock">
+    <image x="70%" y="38%" width="6%" height="6%" href="icons/floors_36px.png" class="ElevationImg" />
+    <arc id="ElevationBackground" x="61%" y="35%" width="80" height="80" fill="fb-light-gray" arc-width="3" start-angle="240" sweep-angle="240" opacity="0.4" />
+    <arc id="ElevationArc" x="61%" y="35%" width="80" height="80" fill="fb-violet" arc-width="5" start-angle="240" sweep-angle="240" />
+    <text id="ElevationText" x="73%" y="50%" text-anchor="middle" />
+  </svg>
+
+  <svg class="Battery" id="BatteryBlock">
+    <image id="BatteryIcon" x="70%" y="58%" width="7%" height="7%" href="icons/battery_36px.png" class="BatteryImg" />
+    <arc id="BatteryBackground" x="61%" y="55%" width="80" height="80" fill="fb-light-gray" arc-width="3" start-angle="240" sweep-angle="240" opacity="0.4" />
+    <arc id="BatteryArc" x="61%" y="55%" width="80" height="80" fill="silver" arc-width="5" start-angle="240" sweep-angle="240" />
+    <text id="BatteryLabel" x="73%" y="70%" />
+  </svg>
+  
+  <svg class="HeartRate" id="HeartRateBlock">
+    <image x="112" y="78%" width="6%" height="6%" href="icons/heart_rate_36px.png" class="HRImg" />
+    <line id="HRrestBar" x1="112" x2="134" y1="85%" y2="85%" stroke-width="5" stroke-linecap="round" fill="fb-red" />
+    <line id="HRfatburnBar" x1="144" x2="166" y1="85%" y2="85%" stroke-width="5" stroke-linecap="round" fill="fb-red" />
+    <line id="HRcardioBar" x1="176" x2="198" y1="85%" y2="85%" stroke-width="5" stroke-linecap="round" fill="fb-red" />
+    <line id="HRpeakBar" x1="208" x2="230" y1="85%" y2="85%" stroke-width="5" stroke-linecap="round" fill="fb-red" />
+    <text id="HRText" x="144" y="83%" />
+  </svg>
+  
+  <g transform="translate(50%,50%)">
+    <g id="minutes">
+      <line id="minuteshandcolor1" x1="0" y1="0" x2="0" y2="-140" class="secondary" stroke-width="7" stroke-linecap="round" fill="white" />
+      <line id="minuteshandcolor2" x1="0" y1="0" x2="0" y2="20" class="secondary" stroke-width="7" stroke-linecap="round" fill="white" />
+      <line x1="0" y1="0" x2="0" y2="-70" class="secondary" stroke-width="5" stroke-linecap="butt" fill="fb-extra-dark-gray" />
+      <line x1="0" y1="0" x2="0" y2="10" class="secondary" stroke-width="5" stroke-linecap="butt" fill="fb-extra-dark-gray" />
+    </g>
+    <g id="hours">
+      <line id="hourshandcolor1" x1="0" y1="0" x2="0" y2="-70" class="secondary" stroke-width="9" stroke-linecap="round" fill="white" />
+      <line id="hourshandcolor2" x1="0" y1="0" x2="0" y2="20" class="secondary" stroke-width="9" stroke-linecap="round" fill="white" />
+      <line x1="0" y1="0" x2="0" y2="-35" class="secondary" stroke-width="7" stroke-linecap="butt" fill="fb-extra-dark-gray" />
+      <line x1="0" y1="0" x2="0" y2="10" class="secondary" stroke-width="7" stroke-linecap="butt" fill="fb-extra-dark-gray" />
+    </g>
+    <g id="seconds">
+      <line id="secondshandcolor1" x1="0" y1="0" x2="0" y2="-140" class="accent" stroke-width="3" stroke-linecap="round" fill="red" />
+      <line id="secondshandcolor2" x1="0" y1="0" x2="0" y2="25" class="accent" stroke-width="3" stroke-linecap="round" fill="red" />
+    </g>
+    <circle id="circlecenter" r="5" fill="red" />
+    <circle r="1" fill="fb-extra-dark-gray" />
+  </g>
+  
+</svg>

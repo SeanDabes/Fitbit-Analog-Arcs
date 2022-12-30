@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.1.0"
+  },
+  "fitbit": {
+    "appUUID": "3c1d36b8-3792-49bf-8317-b169bacf3bb5",
+    "appType": "clockface",
+    "appDisplayName": "Analog Arcs",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_heart_rate",
+      "access_user_profile"
+    ],
+    "buildTargets": [
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Analog Arcs"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
