@@ -31,3 +31,11 @@ function sendSettingData(data) {
     console.log("No peerSocket connection");
   }
 }
+
+messaging.peerSocket.addEventListener("message", (evt) => {
+	if (evt.data === "SetTheme") {
+		sendValue(THEME_COLOR, settingsStorage.getItem(THEME_COLOR));
+	} else {
+		console.warn("Couldn't get the theme");
+	}
+});
