@@ -15,6 +15,11 @@ if (companion.launchReasons.settingsChanged) {
   sendValue(THEME_COLOR, settingsStorage.getItem(THEME_COLOR));
 }
 
+// Watch for peers open and sends adjusted settings
+messaging.peerSocket.addEventListener("open", (evt) => {
+  sendValue(THEME_COLOR, settingsStorage.getItem(THEME_COLOR));
+});
+
 function sendValue(key, val) {
   if (val) {
     sendSettingData({
@@ -31,11 +36,3 @@ function sendSettingData(data) {
     console.log("No peerSocket connection");
   }
 }
-
-messaging.peerSocket.addEventListener("message", (evt) => {
-	if (evt.data === "SetTheme") {
-		sendValue(THEME_COLOR, settingsStorage.getItem(THEME_COLOR));
-	} else {
-		console.warn("Couldn't get the theme");
-	}
-});

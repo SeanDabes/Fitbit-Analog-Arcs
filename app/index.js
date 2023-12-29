@@ -168,14 +168,6 @@ heart_rate.addEventListener("reading", () => {
   update_heart_rate(heart_rate);
 });
 
-messaging.peerSocket.addEventListener("open", (evt) => {
-	if (messaging.peerSocket.readyState === messaging.peerSocket.OPEN) {
-	   messaging.peerSocket.send("SetTheme");
-	} else {
-		console.log("No message sent");
-	};
-});
-
 // Update all elements every tick with the current time
 clock.ontick = (evt) => {
   update_clock(evt);
